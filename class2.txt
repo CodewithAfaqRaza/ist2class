@@ -1,0 +1,8 @@
+Autowiring 
+installion of doctrine 
+breif overview of doctrine 
+make bundle 
+data fixtures 
+foundry
+and migrations commands
+  
