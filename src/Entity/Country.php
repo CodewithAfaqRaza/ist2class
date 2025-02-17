@@ -21,6 +21,7 @@ class Country
     /**
      * @var Collection<int, Province>
      */
+    // Refrenced side
     #[ORM\OneToMany(targetEntity: Province::class, mappedBy: 'country')]
     private Collection $provinces;
 
