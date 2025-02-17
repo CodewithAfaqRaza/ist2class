@@ -17,7 +17,8 @@ class PassportType extends AbstractType
             ->add('number')
             ->add('citizen', EntityType::class, [
                 'class' => Citizen::class,
-                'choice_label' => 'id',
+                'choice_label' => 'name',
+                'placeholder' => 'Select The Citizen',
             ])
         ;
     }
